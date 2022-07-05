@@ -8,4 +8,35 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding: 0 5rem;
+}
 /* ! default style end */
+
+/* ! menu section style start */
+.menu-section {
+  background: #000;
+  color: white;
+  padding: 1.3rem 0;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+  column-gap: 2rem;
+}
+.menu-list li a {
+  color: white;
+}
+.menu-list li a:hover {
+  color: red;
+}
+/* ! menu section style end */
