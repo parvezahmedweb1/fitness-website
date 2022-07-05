@@ -14,6 +14,9 @@ li {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 .container {
   padding: 0 5rem;
 }
@@ -40,3 +43,55 @@ a {
   color: red;
 }
 /* ! menu section style end */
+
+/* ! banner section style end */
+.banner-section {
+  background: #000;
+  color: white;
+}
+.banner {
+  display: flex;
+  align-items: center;
+}
+.left-banner,
+.right-banner {
+  width: 50%;
+}
+.left-banner small {
+  color: red;
+}
+.left-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.left-banner p {
+  margin-bottom: 2rem;
+}
+
+.banner-btn {
+  background-image: linear-gradient(
+    to right,
+    #dc2424 0%,
+    #4a569d 51%,
+    #dc2424 100%
+  );
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  font-weight: 700;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.banner-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+}
+
+.banner-img {
+  width: 100%;
+}
+/* ! banner section style end */
