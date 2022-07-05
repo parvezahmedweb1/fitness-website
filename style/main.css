@@ -139,3 +139,41 @@ h2 {
   text-align: center;
 }
 /* ! blogs section style end */
+
+/* ! about section style end */
+.about-section {
+  background: #000;
+  color: white;
+  padding: 4rem 0;
+}
+.adout {
+  display: flex;
+  column-gap: 2rem;
+  margin-top: 6rem;
+}
+.left-about,
+.right-about {
+  width: 50%;
+}
+.left-about {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+.left-about img {
+  width: 40%;
+  transform: skewY(-15deg);
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.right-about p {
+  margin: 1rem 0;
+}
+.right-about ul {
+  margin: 2rem 0 3rem 0;
+  padding: 0 1rem;
+}
+.right-about ul li {
+  list-style: circle;
+}
+/* ! about section style end */
