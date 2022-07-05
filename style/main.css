@@ -17,8 +17,14 @@ a {
 img {
   width: 100%;
 }
+h2 {
+  font-size: 2.5rem;
+}
 .container {
   padding: 0 5rem;
+}
+.mb {
+  margin-bottom: 5rem;
 }
 /* ! default style end */
 
@@ -95,3 +101,36 @@ img {
   width: 100%;
 }
 /* ! banner section style end */
+
+/* ! blogs section style start */
+.head-title {
+  text-align: center;
+}
+.blogs {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 4rem;
+}
+.blog {
+  width: 350px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.blog-img {
+  text-align: center;
+}
+.blog img {
+  width: 25%;
+}
+.blog-details p {
+  margin-bottom: 2.4rem;
+  text-align: justify;
+}
+.read-btn {
+  padding: 0.5rem 2rem;
+  display: block;
+  text-align: center;
+}
+/* ! blogs section style end */
